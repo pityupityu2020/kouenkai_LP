@@ -24,6 +24,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const container23 = document.querySelector('.container23');
     const container24 = document.querySelector('.container24');
     const container25 = document.querySelector('.container25');
+    const container26 = document.querySelector('.container26');
+    const container27 = document.querySelector('.container27');
+    const container28 = document.querySelector('.container28');
     const cb = function(entries, observer){
         entries.forEach(entry => {
             if(entry.isIntersecting){
@@ -60,6 +63,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
     io.observe(container23);
     io.observe(container24);
     io.observe(container25);
+    io.observe(container26);
+    io.observe(container27);
+    io.observe(container28);
 })
 
 class TextAnimation{

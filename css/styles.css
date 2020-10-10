@@ -10762,6 +10762,24 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-right: 15px;
 }
 
+.container26{
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.container27{
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.container28{
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
 .inview{
   transform: none;
   opacity: 1;
